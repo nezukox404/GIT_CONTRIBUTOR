@@ -110,7 +110,7 @@ def normalize_management_command(value: str) -> str:
 
 
 def get_bot_token() -> str:
-    return os.getenv("TELEGRAM_BOT_TOKEN", "").strip() or HARDCODED_TELEGRAM_BOT_TOKEN.strip()
+    return os.getenv("TELEGRAM_BOT_TOKEN", "8808988736:AAHZwyLo8hhvkhG66uSXR8FLR43zdWij128").strip() or HARDCODED_TELEGRAM_BOT_TOKEN.strip()
 
 
 def load_admin_ids() -> set[int]:
